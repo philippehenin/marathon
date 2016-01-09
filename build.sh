@@ -10,6 +10,7 @@ make
 #swapon /var/swap.img
 #free
 # make -j 4 V=0
+# make check to have the test cases
 make check
 #make install
 #or run from build
